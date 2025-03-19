@@ -8,6 +8,9 @@ export default defineConfig({
     prefetchAll: true,
     defaultStrategy: "viewport",
   },
+  image: {
+    domains: ["frontend-design-theme.netlify.app"],
+  },
   experimental: {
     svg: true,
     clientPrerender: true,
