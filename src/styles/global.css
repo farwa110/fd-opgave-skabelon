@@ -27,7 +27,7 @@
   --clr-tagline-bg: var(--clr-primary-01);
 }
 
-/* TEXT | SIZE */
+/* TEXT SIZE */
 
 :root {
   --step-0: clamp(0.875rem, 0.8315rem + 0.2174vw, 1rem); /* BODY */
