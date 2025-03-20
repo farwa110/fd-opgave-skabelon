@@ -50,6 +50,7 @@ Dette betyder, at styling af indholdet i kortene kan tilpasses baseret på korte
 1. Jeg får nogle mærkelige errors i mine komponenter. Nogle bliver væk ved at @its check, men så får jeg en mærkelig error, hvor JavaScript-kode, som jeg har skrevet i min header for burger-menu, kommer frem på min deployed version.  
    Efter at have prøvet mange gange, gik jeg til tutor og ved at skrive bare `script{ display: none; }` i min layout css, bliver bug fixet.  
    ![config.png](public/screenshots/config.png)
+   ![about.png](public/screenshots/about.png)
 
 2. Den anden udfordring var at hente single-view og især billeder af hver enkelt employee, men til sidst fungerede den ved at skrive images i astro.config.mjs og noget rettelse i slug.astro, og det virker.  
    ![slug.png](public/screenshots/slug.png)
