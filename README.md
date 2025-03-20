@@ -12,16 +12,16 @@ Jeg har implementeret flere avancerede stylingmetoder i projektet:
 
 # Stylesheets:
 I min global css har jeg lavet variabler til spacing,text-size, farver og corner radius.
-![global i css.](/src/assets/images/screenshots/colors.png)
+![global i css.](screenshots/colors.png)
 
 I min mystyles.css har jeg min headings , p og data-themes ,som jeg har lavet [data-themes] med bestemt farver palete som jeg nemt skift med dark, medium, pop themes.
 For at skabe sektioner med skiftende farvetemaer—hvor tekstfarve og baggrundsfarve bytter plads—har jeg anvendt data-theme-attributten. Denne attribut angiver, hvilket farvetema en sektion skal følge, og når temaet ændres, opdateres mine custom CSS properties automatisk. Dette gør det nemt at styre farveskift uden at skulle overskrive styles manuelt.
-![mystyles i css.](/src/assets/images/screenshots/datatheme.png)
+![mystyles i css.](screenshots/datatheme.png)
 
 I min layout.css har jeg min layout styles hvor jeg har skrevet min grid med 3 coloner , 3 rækker .
-![layout i css.](/src/assets/images/screenshots/layout.png)
+![layout i css.](screenshots/layout.png)
 
-#Brug af Cascade layers: ![layout i css.](/src/assets/images/screenshots/layers.png)
+#Brug af Cascade layers: ![layout i css.](screenshots/layers.png)
 
 📂 Struktur og Sidemoduler (#Pages)
 Jeg har opdelt projektet i flere sider (pages), hvor jeg importerer komponenter for at holde koden organiseret og genanvendelig.
@@ -30,19 +30,19 @@ Jeg har opdelt projektet i flere sider (pages), hvor jeg importerer komponenter 
 For at forbedre readability og genbrug har jeg skabt små komponenter, som jeg importerer i større parent-komponenter. Dette gør det lettere at vedligeholde og skalerere projektet.
 
 Eksempel: Jeg har oprettet en Button.astro/card.astro eller teamcard.astro, som jeg genbruger på tværs af projektet ved at importere den i andre komponenter, hvor en knap er nødvendig.
-![button komponent.](/src/assets/images/screenshots/btn.png)
+![button komponent.](screenshots/btn.png)
 Samme tilgang er brugt til Tagline.astro og AboutHero.astro, som er importeret på flere sider (pages/team.astro, pages/about.astro og pages/casestudy.astro).
 💡 Effektivitet: Da disse sider har samme layout, men forskellige billeder, har jeg valgt at importere billeder direkte på hver enkelt side. På denne måde genbruger jeg koden, mens jeg varierer indholdet—hvilket både optimerer kodebasen og reducerer gentagelser.
 
-![abouthero komponent.](/src/assets/images/screenshots/abouthero.png)
+![abouthero komponent.](screenshots/abouthero.png)
 
 #Brug af Containerqueries for responsivtitet:
 I dette projekt har jeg brugt container queries for at gøre komponenterne mere fleksible og uafhængige af viewportens størrelse.
 
 I sektionen med teamList.astro (li) har jeg defineret hvert kort som en container:
-![teamList komponent.](/src/assets/images/screenshots/teamlist.png)
-![card komponent.](/src/assets/images/screenshots/card.png)
-![HeroOne komponent.](/src/assets/images/screenshots/hero.png)
+![teamList komponent.](screenshots/teamlist.png)
+![card komponent.](screenshots/card.png)
+![HeroOne komponent.](screenshots/hero.png)
 Dette betyder, at styling af indholdet i kortene kan tilpasses baseret på kortets bredde i stedet for hele skærmens størrelse.
 
 
