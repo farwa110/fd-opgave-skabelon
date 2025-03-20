@@ -4,7 +4,7 @@
 import type { ImageMetadata } from "astro";
 import { Image } from "astro:assets";
 import { Icon } from "astro-icon/components";
-import Layout from "../../layouts/Layout.astro"; // Import Layout instead of MainLayout
+import Layout from "../../layouts/Layout.astro"; 
 
 export async function getStaticPaths() {
   const employees = await fetch("https://frontend-design-theme.netlify.app/api/employees").then((res) => res.json());
